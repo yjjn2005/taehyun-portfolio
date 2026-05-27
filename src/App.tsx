@@ -35,7 +35,7 @@ interface Metrics { priceKRW: number; val: number; pnl: number; ret: number; }
 // ──────────────────────────────────────────────────────────────────────────────
 // CONSTANTS
 // ──────────────────────────────────────────────────────────────────────────────
-const LOCAL_KEY = 'taehyun_portfolio_v7_local';
+const LOCAL_KEY = 'taehyun_portfolio_v8_local';
 const APP_ID    = import.meta.env.VITE_FIREBASE_APP_ID || 'portfolio-default';
 
 const INITIAL_STOCKS: Stock[] = [
@@ -46,7 +46,7 @@ const INITIAL_STOCKS: Stock[] = [
   {id:4,  n:"로보티즈",          c:"108490", yt:"108490.KQ", t:"국내주식",  sh:20,  bp:248000,  inv:4960000,  base:308000,  cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
   {id:5,  n:"두산에너빌리티",     c:"034020", yt:"034020.KS", t:"국내주식",  sh:46,  bp:107200,  inv:4931200,  base:110800,  cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
   {id:6,  n:"LG에너지솔루션",    c:"373220", yt:"373220.KS", t:"국내주식",  sh:13,  bp:361000,  inv:4693000,  base:392500,  cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
-  {id:7,  n:"LS ELECTRIC",     c:"010120", yt:"010120.KS", t:"국내주식",  sh:5,   bp:850000,  inv:4250000,  base:259000,  cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
+  {id:7,  n:"LS ELECTRIC",     c:"010120", yt:"010120.KS", t:"국내주식",  sh:20,  bp:210000,  inv:4200000,  base:259000,  cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
   {id:8,  n:"SK아이이테크놀로지", c:"361610", yt:"361610.KS", t:"국내주식",  sh:1,   bp:105000,  inv:105000,   base:19250,   cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
   {id:9,  n:"카카오페이",        c:"377300", yt:"377300.KS", t:"국내주식",  sh:2,   bp:90000,   inv:180000,   base:46950,   cur:"KRW", ow:"유태현", ac:"위탁",    br:"삼성증권"},
   // ── 삼성증권 (연금) ──
