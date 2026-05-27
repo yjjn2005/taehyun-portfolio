@@ -1,0 +1,14 @@
+{
+  "name": "유태현 포트폴리오 Pro",
+  "short_name": "포트폴리오",
+  "description": "실시간 주식·ETF 포트폴리오 관리 — 멀티 디바이스 동기화",
+  "start_url": "/taehyun-portfolio/",
+  "scope": "/taehyun-portfolio/",
+  "display": "standalone",
+  "background_color": "#0B0F19",
+  "theme_color": "#0B0F19",
+  "orientation": "any",
+  "icons": [
+    { "src": "/taehyun-portfolio/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
